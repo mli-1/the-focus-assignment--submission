@@ -1,0 +1,235 @@
+@font-face{
+	font-family:'Pacifico'; src:url('../fonts/Pacifico/Q_Z9mv4hySLTMoMjnk_rCXYhjbSpvc47ee6xR_80Hnw.woff2') format('woff2');
+}
+@font-face{
+	font-family:'Raleway-Regular'; src:url('../fonts/Raleway/QAUlVt1jXOgQavlW5wEfxQLUuEpTyoUstqEm5AMlJo4.woff2') format('woff2');
+}
+@font-face{
+	font-family:'Raleway-Light';src:url('../fonts/Raleway/-_Ctzj9b56b8RgXW8FAriQzyDMXhdD8sAj6OAJTFsBI.woff2') format('woff2');
+}
+@font-face{
+	font-family:'Raleway-SemiBold';	src:url("../fonts/Raleway/xkvoNo9fC8O2RDydKj12bwzyDMXhdD8sAj6OAJTFsBI.woff2") format('woff2');
+}
+
+body{
+	width:100%;
+  padding:0;
+  margin:0;
+  margin-top: 0;
+	margin:auto;
+	overflow-x: hidden;
+  background-color:#f4f4f4;
+}
+
+header #top p{
+	margin-top: 0;
+	font-family: 'Raleway-Light';
+	font-size:36px;
+	float:left;
+	position: relative;
+	top:35%;
+	left:30%;
+}
+
+header #top{
+	margin-top: 0;
+	background: url(../img/large-banner-image.png);
+	height:700px;
+	background-position:top;
+	position: relative;
+	background-size: cover;
+  background-repeat: no-repeat;
+
+}
+header #top #focus{
+	font-family: "Pacifico";
+	font-size: 60px;
+	font-weight: 100;
+	margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+	float:right;
+	position: relative;
+  left: -44%;
+	top:15%;
+}
+header #top img{
+	float:left;
+	padding-top: 120px;
+	padding-left:25px;
+}
+#second{
+	height:500px;
+}
+#second #leftSecond {
+	min-height: 80%;
+	min-width: 80%;
+	font-family: "Raleway-Semibold";
+	font-size:16px;
+	float:left;
+	position:relative;
+	left:15%;
+	position: absolute;
+	top:810px;
+}
+#second #leftSecond p{
+	color: #a6a6a6;
+	width:30%;
+	font-family:"helvetica neue","helvectica";
+	font-size:16px;
+	padding-bottom: 25px;
+}
+#second #rightSecond{
+	font-family: "Raleway-Semibold";
+	font-size:16px;
+	position:absolute;
+	left: 1050px;
+	top: 810px;
+}
+
+#second #rightSecond p{
+	color: #a6a6a6;
+	width:65%;
+	font-family:"helvetica neue","helvectica";
+	font-size:16px;
+	padding-bottom: 20px;
+}
+
+#iphone img{
+	position:absolute;
+	left:600px;
+	top:460px;
+}
+#dots #d1{
+	position: absolute;
+	top:650px;
+	left:870px;
+}
+#dots #d2{
+	position: absolute;
+	left:725px;
+	top:775px;
+}
+#dots #d3{
+	position: absolute;
+	top:950px;
+	left:725px;
+}
+#dots #d4{
+	position: absolute;
+	top:850px;
+	left:880px;
+}
+#dots #d5{
+	position: absolute;
+	top:885px;
+	left:900px;
+}
+
+#third{
+	height:450px;
+	background-color: #e3e3e3;
+}
+#third #left{
+	padding-top: 50px;
+	padding-left: 240px;
+}
+#third #left h1{
+	font-family: "Raleway-SemiBold";
+	font-size: 22px;
+}
+#third #left p{
+	font-family: "Helvectica Neue", "Helvectica";
+	font-size:16px;
+	color: #a6a6a6;
+	width:35%;
+}
+#third #right{
+	float:right;
+}
+#third #vid{
+	position: relative;
+	top: -200px;
+	left:300px;
+}
+#third #play{
+	position: relative;
+	top:-225px;
+	left:-185px;
+}
+#third #bar{
+	position: relative;
+	top:-225px;
+	left:-175px;
+}
+#fourth {
+	height:650px;
+}
+#fourth h2{
+	font-family: "Raleway-regular";
+	font-size:24px;
+	position: relative;
+	left:350px;
+	white-space:nowrap
+}
+#fourth h4{
+	font-family: "Helvectica Neue", "Helvectica";
+	font-style: bold;
+	font-size: 14px;
+	position: relative;
+	left: 750px;
+}
+#fourth h5{
+	font-family:"Helvectica Neue", "Helvectica";
+	font-size:14px;
+	font-weight: lighter;
+	position: relative;
+	left:835px;
+	top:-40px;
+}
+#fourth #active{
+	position: relative;
+	left:915px;
+	top:-242px;
+}
+#fifth h1{
+	position: relative;
+	font-family: "Raleway-Regular";
+	font-size: 24px;
+	left:675px;
+	top:-150px;
+}
+#fifth p{
+	font-family: "Helvectica Neue", "Helvectica";
+	font-size: 16px;
+	color: #a6a6a6;
+	position: relative;
+	left:615px;
+	top:-150px;
+}
+#media{
+	padding: 10px;
+	position: relative;
+	left: 675px;
+	top:-150px;
+}
+footer{
+	height: 150px;
+	background-color:#e3e3e3;
+}
+footer ul{
+	list-style: none;
+  margin: 0;
+  padding: 0;
+	position: relative;
+	top:105px;
+}
+footer li{
+	font-family: "Helvectica Neue", "Helvectica";
+	color: #a6a6a6;
+	position: relative;
+	left: 560px;
+	display:inline-block;
+	margin: 0 30px 30px 0
+}
